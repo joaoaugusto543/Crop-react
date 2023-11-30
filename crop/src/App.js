@@ -5,7 +5,7 @@ import Home from './pages/Home/Home'
 function App() {
   return (
     <Routes>
-      <Route path='/' exact element={<Home/>}/>
+      <Route path='/' element={<Home/>}/>
     </Routes>
   )
 }
